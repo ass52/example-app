@@ -19,7 +19,6 @@ class Userstablesseeder extends Seeder
             'name' => 'Ayush',
             'email' => 'ayush@gmail.com',
             'Password'=> Hash::make('password'),
-            'remimber_token'=> str_random(10),
 
         ]);
     }
